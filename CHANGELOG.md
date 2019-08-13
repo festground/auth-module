@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [4.8.1.1](https://github.com/festground/auth-module/compare/v4.8.1...v4.8.1.1) (2019-08-13)
+
+
+### Bug Fixes
+
+* **oauth2:** correctly handle callback with i18n locale
+
+
+### Features
+
+* update module name
+
+
+
 ### [4.8.1](https://github.com/nuxt-community/auth-module/compare/v4.8.0...v4.8.1) (2019-06-24)
 
 
