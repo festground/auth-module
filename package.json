@@ -1,6 +1,6 @@
 {
   "name": "@festground/nuxt-auth",
-  "version": "4.8.1.1",
+  "version": "1.0.0",
   "description": "Authentication module for Nuxt.js",
   "license": "MIT",
   "contributors": [
