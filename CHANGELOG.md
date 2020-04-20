@@ -2,6 +2,45 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.2](https://github.com/festground/auth-module/compare/v1.0.1...v1.0.2) (2020-04-20)
+
+
+### Features
+
+* sync the latest release version (v4.9.1)
+
+### [4.9.1](https://github.com/nuxt-community/auth-module/compare/v4.9.0...v4.9.1) (2020-04-16)
+
+
+### Bug Fixes
+
+* **oauth2:** use normalized path for callback route check ([#587](https://github.com/nuxt-community/auth-module/issues/587)) ([ffda6b0](https://github.com/nuxt-community/auth-module/commit/ffda6b08747496a24ed4656d7d48db50e6c4c50f))
+
+## [4.9.0](https://github.com/nuxt-community/auth-module/compare/v4.8.5...v4.9.0) (2020-03-15)
+
+
+### Features
+
+* **core:** return response from `loginWith` ([#541](https://github.com/nuxt-community/auth-module/issues/541)) ([7e4f1ed](https://github.com/nuxt-community/auth-module/commit/7e4f1edebde7938428a80154c1fefc2fa24ff9ce)), closes [#144](https://github.com/nuxt-community/auth-module/issues/144) [#411](https://github.com/nuxt-community/auth-module/issues/411) [#249](https://github.com/nuxt-community/auth-module/issues/249)
+* **local scheme:** add `autoFetchUser` option ([#543](https://github.com/nuxt-community/auth-module/issues/543)) ([344920c](https://github.com/nuxt-community/auth-module/commit/344920c0c2d90a6db6265eb286f42f64d1da6ac7))
+
+
+### Bug Fixes
+
+* clear tokens when calling `$auth.reset()` ([#544](https://github.com/nuxt-community/auth-module/issues/544)) ([ab75ebc](https://github.com/nuxt-community/auth-module/commit/ab75ebcd54d45c79d060b810cfd2ba90fd5738ac)), closes [#172](https://github.com/nuxt-community/auth-module/issues/172)
+* fix `setUserToken` issues ([#528](https://github.com/nuxt-community/auth-module/issues/528)) ([02d14ac](https://github.com/nuxt-community/auth-module/commit/02d14ac5695c5797e290ce9494d0c0451fbf5296)), closes [#278](https://github.com/nuxt-community/auth-module/issues/278)
+* remove the trailing slash of paths in `isSameURL` ([#542](https://github.com/nuxt-community/auth-module/issues/542)) ([fb63f6f](https://github.com/nuxt-community/auth-module/commit/fb63f6f6dc17a7afa0b3a51d4b8f447de2ede7de))
+* **module:** don't log fatal error when vuex is disabled ([#518](https://github.com/nuxt-community/auth-module/issues/518)) ([59831fb](https://github.com/nuxt-community/auth-module/commit/59831fbee852ce38598a405f6cc1b971c0430339))
+
+### [4.8.5](https://github.com/nuxt-community/auth-module/compare/v4.8.4...v4.8.5) (2019-12-27)
+
+
+### Bug Fixes
+
+* **core:** always return boolean form hasScope ([a2da3a4](https://github.com/nuxt-community/auth-module/commit/a2da3a4775266aee859c48763b3c3788efe08f02))
+* **core:** support querystring only url for `isRelativeURL` ([#492](https://github.com/nuxt-community/auth-module/issues/492)) ([09d81ea](https://github.com/nuxt-community/auth-module/commit/09d81ead05c11bcd453ad59c3796987872787a12))
+* **module:** always transpile nanoiid ([8ef5a9b](https://github.com/nuxt-community/auth-module/commit/8ef5a9bf6cff886be2dfc49855cf5c7c4cb1c670)), closes [#472](https://github.com/nuxt-community/auth-module/issues/472)
+
 ### [1.0.1](https://github.com/festground/auth-module/compare/v1.0.0...v1.0.1) (2019-10-01)
 
 
@@ -9,7 +48,21 @@ All notable changes to this project will be documented in this file. See [standa
 
 * add option auth_type for Facebook reaskperms
 
+### [4.8.4](https://github.com/nuxt-community/auth-module/compare/v4.8.3...v4.8.4) (2019-09-12)
 
+
+### Bug Fixes
+
+* **oauth2:** restore callback handling on static sites ([#453](https://github.com/nuxt-community/auth-module/issues/453)) ([06165a0](https://github.com/nuxt-community/auth-module/commit/06165a0))
+
+### [4.8.3](https://github.com/nuxt-community/auth-module/compare/v4.8.2...v4.8.3) (2019-09-10)
+
+
+### Bug Fixes
+
+* **core:** set loggedIn after user ([#449](https://github.com/nuxt-community/auth-module/issues/449)) ([458d60b](https://github.com/nuxt-community/auth-module/commit/458d60b))
+
+### [4.8.2](https://github.com/nuxt-community/auth-module/compare/v4.8.1...v4.8.2) (2019-09-05)
 
 ### [1.0.0](https://github.com/festground/auth-module/compare/v4.8.1.1...v1.0.0) (2019-08-13)
 
@@ -17,8 +70,6 @@ All notable changes to this project will be documented in this file. See [standa
 ### Bug Fixes
 
 * fix version number
-
-
 
 ### [4.8.1.1](https://github.com/festground/auth-module/compare/v4.8.1...v4.8.1.1) (2019-08-13)
 
@@ -31,8 +82,6 @@ All notable changes to this project will be documented in this file. See [standa
 ### Features
 
 * update module name
-
-
 
 ### [4.8.1](https://github.com/nuxt-community/auth-module/compare/v4.8.0...v4.8.1) (2019-06-24)
 
